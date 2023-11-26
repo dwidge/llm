@@ -1,0 +1,23 @@
+{
+  "name": "@dwidge/llm",
+  "version": "0.0.0",
+  "license": "BSL-1.0",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "peerDependencies": {
+    "openai": "^4.19.0",
+    "openai-chat-tokens": "^0.2.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
